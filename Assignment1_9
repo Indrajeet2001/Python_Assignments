@@ -1,0 +1,19 @@
+def PrintEven(No):
+    count = 0
+    num = 2
+
+    while count < No:
+        print(num, end='    ')
+        num += 2
+        count += 1
+
+
+def main():
+
+    print("Enter the number of iterations :")
+    Num = int(input())
+
+    PrintEven(Num)
+
+if __name__ == "__main__":
+    main()

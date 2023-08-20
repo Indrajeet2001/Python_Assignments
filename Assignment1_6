@@ -1,0 +1,18 @@
+def Check(No):
+    if ((No >= 1) & (No <= 1000)):
+        print("Positive Number")
+    if((No <= -1) & (No >= -1000)):
+        print("Negative Number")
+    if (No == 0):
+        print("Zero")
+        
+
+def main():
+
+    print("Enter the number :")
+    Num = int(input())
+
+    Check(Num)
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,10 @@
+def Pattern():
+    for i in range(5):
+        print("Marvellous")
+
+def main():
+
+    Pattern()
+
+if __name__ == "__main__":
+    main()

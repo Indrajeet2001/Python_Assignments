@@ -1,0 +1,14 @@
+def Chklength(i):
+        return len(i)
+
+def main():
+
+    print("Enter the name :")
+    word = str(input())
+
+    result = Chklength(word)
+
+    print(result)
+
+if __name__ == "__main__":
+    main()

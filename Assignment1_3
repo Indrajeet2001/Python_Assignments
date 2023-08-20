@@ -1,0 +1,16 @@
+def Add(No1, No2):
+    return No1 + No2
+
+def main():
+
+    print("Enter the first number :")
+    Num1 = int(input())
+
+    print("Enter the first number :")
+    Num2 = int(input())
+
+    result = Add(Num1, Num2)
+
+    print("Addition is :",result)
+if __name__ == "__main__":
+    main()
